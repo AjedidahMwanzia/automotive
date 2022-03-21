@@ -201,12 +201,15 @@
 /* ....................................Top rated................................................................ */
 .special{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
 }
 .rated{
-    width: 30%;
+    width: 25%;
     margin-left: 5vw;
+    padding-bottom: 2vw;
+    font-family: 'Antonio', sans-serif;
 }
 .container h2{
     text-align: center;
