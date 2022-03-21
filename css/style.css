@@ -218,8 +218,10 @@
     font-family: 'Antonio', sans-serif;
 
 }
-.container{
-    font-family: 'Antonio', sans-serif;
+.container hr{
+   margin-left: 47vw;
+   margin-top: -1.5vw;
+   margin-bottom: 2vw;
 }
 .rated #image2{
     height: 11vw;
