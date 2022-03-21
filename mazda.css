@@ -1,3 +1,7 @@
+h2{
+    text-align: center;
+    color: brown;
+}
 .spare__parts{
     display: flex;
     flex-direction: row;
@@ -11,4 +15,34 @@
 width: 250px;
 height: 250px;
 }
+#headlights{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.head{
+    margin-right: 10px;
+}
+.head>img{
+    width: 200px;
+    height: 200px;
+}
 
+#wheels{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.wheel>img{
+    width: 200px;
+    height: 200px;
+}
+#exhausts{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.exhaust>img{
+    width: 200px;
+    height: 200px;
+}
