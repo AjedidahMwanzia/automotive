@@ -5,13 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 .section1{
-    background-image: url(../images/car2.jpg);
+    background-image: url(../images/toyota.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
     text-align: center;
     padding-top: 15vw;
-    height: 50vw;
+    height: 55vw;
     
 }
 .header{
@@ -42,15 +41,16 @@
 .info{
     color: white;
     margin-left: -44vw;
+    padding-top: 2vw;
 }
 .info h1{
     font-family: 'Antonio', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding-bottom: 1vw;
 }
 .info h2{
     font-family: 'Antonio', sans-serif;
-    font-size: 3vw;
+    font-size: 3.5vw;
     padding-bottom: 1vw;
 }
 .info h3{
@@ -76,7 +76,10 @@
     display: flex;
     flex-wrap: wrap;
     color: white;
-  
+    margin-bottom: 3vw;
+  }
+  .cards h3{
+    font-family: 'Antonio', sans-serif;
   }
  .cards img{
     width: 17vw;
@@ -84,11 +87,12 @@
  }
  .card1{
     display: flex;
-    background-image: url(../images/bac4.jpg);
+    background-image: url(../images/bac4.jpg) ;
     width: 25%;
     font-size: 1.5vw;
     padding-left: 1vw;
     padding-top: 1vw;
+    position: relative;
  }
  .card1 img{
     margin-top: 4vw;
@@ -139,6 +143,7 @@
     display: flex;
     background-image: url(../images/black2.jpg);
     width: 25%;
+    height: 17vw;
     font-size: 1.5vw;
     padding-left: 1vw;
     padding-top: 1vw;
@@ -154,6 +159,7 @@
     display: flex;
     background-image: url(../images/black2.jpg);
     width: 25%;
+    height: 17vw;
     font-size: 1.5vw;
     padding-left: 1vw;
     padding-top: 1vw;
@@ -168,6 +174,7 @@
     display: flex;
     background-image: url(../images/bac4.jpg);
     width: 25%;
+    height: 17vw;
     font-size: 1.5vw;
     padding-left: 1vw;
     padding-top: 1vw;
@@ -180,6 +187,7 @@
     display: flex;
     background-image: url(../images/black2.jpg);
     width: 25%;
+    height: 17vw;
     font-size: 1.5vw;
     padding-left: 1vw;
     padding-top: 1vw;
@@ -190,6 +198,37 @@
     margin-top: 5vw;
     margin-left: -3vw;
 }
+/* ....................................Top rated................................................................ */
+.special{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.rated{
+    width: 30%;
+    margin-left: 5vw;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    font-family: 'Antonio', sans-serif;
 
+}
+.container{
+    font-family: 'Antonio', sans-serif;
+}
+.rated #image2{
+    height: 11vw;
+}
+.rated h4 {
+  margin-left: 5vw;
+}
+.rated p{
+    margin-left: 5vw;  
+}
+.rated img{
+    height: 11vw;
+}
 
 
