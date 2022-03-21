@@ -46,3 +46,12 @@ height: 250px;
     width: 200px;
     height: 200px;
 }
+#mirrors{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.mirror>img{
+    width: 200px;
+    height: 200px;
+}
