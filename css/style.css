@@ -8,7 +8,7 @@
     background-image: url(../images/car2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     text-align: center;
     padding-top: 15vw;
     height: 50vw;
@@ -42,7 +42,6 @@
 .info{
     color: white;
     margin-left: -44vw;
-    /* margin-top: 2vw; */
 }
 .info h1{
     font-family: 'Antonio', sans-serif;
@@ -64,9 +63,133 @@
     background-color: #d73716;
     color: white;
     border: none;
-    border-radius: 0.7vw;
+    border-radius: 1vw;
     font-size: 1.2vw;
     width: 8vw;
     box-shadow: 0 0.5vw 1.5vw rgba(0, 0, 0, 0.2);
 }
+/* ......................................................services.................................................... */
+
+.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+  
+  }
+ .cards img{
+    width: 17vw;
+    height: 10vw;
+ }
+ .card1{
+    display: flex;
+    background-image: url(../images/bac4.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+ }
+ .card1 img{
+    margin-top: 4vw;
+ }
+ .card2{
+    display: flex;
+    background-image: url(../images/black2.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+
+ }
+ .card2 img{
+    margin-top: 5vw;
+    margin-left: -5vw;
+ }
+ .card3{
+    display: flex;
+    background-image: url(../images/black2.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: black;
+
+ }
+.card3 img{
+    margin-top: 5vw;
+    width: 20vw;
+    margin-left: -3vw;
+ }
+ .card4{
+    display: flex;
+    background-image: url(../images/black2.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: black;
+
+ }
+.card4 img{
+    margin-top: 5vw;
+    margin-left: -5vw;
+ }
+.card5{
+    display: flex;
+    background-image: url(../images/black2.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: black;
+
+ }
+.card5 img{
+    margin-top: 5vw;
+    margin-left: -3vw;
+    width: 13vw;
+ }
+ .card6{
+    display: flex;
+    background-image: url(../images/black2.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: black;
+
+ }
+.card6 img{
+    margin-top: 7vw;
+    margin-left: -10vw;
+}
+.card7{
+    display: flex;
+    background-image: url(../images/bac4.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+ }
+ .card7 img{
+    margin-top: 5vw;
+    margin-left: -3vw;
+}
+.card8{
+    display: flex;
+    background-image: url(../images/black2.jpg);
+    width: 25%;
+    font-size: 1.5vw;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: black;
+
+ }
+.card8 img{
+    margin-top: 5vw;
+    margin-left: -3vw;
+}
+
+
 
