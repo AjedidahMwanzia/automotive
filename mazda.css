@@ -1,0 +1,11 @@
+.spare__parts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.card >img{
+width: 250px;
+height: 250px;
+}
+
