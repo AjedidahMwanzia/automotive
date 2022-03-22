@@ -1,0 +1,17 @@
+/* font-family: 'Aclonica', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; */
+body{
+    scroll-behavior: smooth;
+    font-family: 'Aclonica', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#subaru-page{
+    background-image: url("../images/car1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
