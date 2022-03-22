@@ -1,7 +1,8 @@
 h2{
     text-align: center;
     color: brown;
-    
+    font-family: 'Kalam', cursive;
+    font-family: 'Sansita Swashed', cursive
 }
 .spare__parts{
     display: flex;
