@@ -1,5 +1,7 @@
 body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: 'Antonio', sans-serif; */
+ /* font-family: 'Raleway', sans-serif; */
+ font-family: 'Poppins', sans-serif;
     text-align:center;
     background: url(./images/denin-lawley-mpt0txRKmM0-unsplash.jpg);
     background-size:cover;
@@ -29,7 +31,21 @@ h2{
     color:red;
 }
 option{
-    color:yellowgreen;
+    color:black;
+    font-weight: bold;
+    
+}
+.pic{
+    width: 300px;
+    height: 250px;
+}
+.my-card{
+    padding: 5px 8px;
+    margin: 10px 20px;
+}
+.category-heading{
+    padding-top: 80px;
+    padding-bottom: 20px;
 }
 
 
@@ -50,7 +66,3 @@ option{
 
 
 
-
-.container-category .box{
-    flex: 1 1 17rem;
-}
