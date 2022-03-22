@@ -244,16 +244,15 @@
 }
 /* ..............................................categories..................................................... */
 .categories{
-    background-image: url(../images/steeringbackground.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vw;
+     height: 30vw;
 }
 .categories h2{
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 3vw;
     padding-bottom: 2vw;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 /* .................................................about........................................................ */
