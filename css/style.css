@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
 }
 .section1{
     background-image: url(../images/toyota.jpg);
@@ -42,30 +41,33 @@
     color: white;
     margin-left: -44vw;
     padding-top: 2vw;
-}
+
+        font-family: 'Raleway', sans-serif;
+    
+    }
+
 .info h1{
-    font-family: 'Antonio', sans-serif;
     font-size: 2vw;
     padding-bottom: 1vw;
 }
 .info h2{
-    font-family: 'Antonio', sans-serif;
     font-size: 3.5vw;
     padding-bottom: 1vw;
 }
 .info h3{
-    font-family: 'Antonio', sans-serif;
-    font-size: 1.5vw;
+
+    font-size: 1.8vw;
     padding-bottom: 2vw;
 }
 .info input{
-    padding: 0.3vw;
+    padding: 0.5vw;
     background-color: #d73716;
     color: white;
     border: none;
     border-radius: 1vw;
     font-size: 1.2vw;
-    width: 8vw;
+    width: 10vw;
+    font-family: 'Raleway', sans-serif;
     box-shadow: 0 0.5vw 1.5vw rgba(0, 0, 0, 0.2);
 }
 /* ......................................................services.................................................... */
@@ -211,11 +213,16 @@
     padding-bottom: 2vw;
     font-family: 'Antonio', sans-serif;
 }
+.container h4{
+    font-size: 1vw;
+    font-family: 'Raleway', sans-serif;
+
+}
 .container h2{
     text-align: center;
     margin-bottom: 2vw;
     font-size: 2vw;
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
 }
 .container hr{
@@ -235,5 +242,43 @@
 .rated img{
     height: 11vw;
 }
+/* ..............................................categories..................................................... */
+.categories{
+    background-image: url(../images/steeringbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vw;
+}
+.categories h2{
+    color: white;
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+}
 
-
+/* .................................................about........................................................ */
+.about{
+    background-color: #d73716;
+    color: white;
+    text-align: center;
+    padding-top: 3vw;
+    font-family: 'Antonio', sans-serif;
+}
+.call{
+    display: flex;
+    margin-left: 37vw;
+    padding-bottom: 4vw;
+    
+}
+.call h2{
+    padding-left: 1vw;
+    font-size: 3vw;
+}
+.about h2{
+    font-size: 3vw;
+    padding-bottom: 1vw;
+}
+.about h4{
+    font-size: 1.5vw;
+    padding-bottom: 1vw;
+}
