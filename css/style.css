@@ -284,8 +284,14 @@
 }
 /* .................................................contact....................................................... */
 .contact h2{
-    padding-left: 25vw;
+    padding-left: 23vw;
     padding-bottom: 1vw; 
+    font-family: 'Antonio', sans-serif; 
+}
+.contact h4{
+    padding-left: 24vw;
+    padding-bottom: 1vw; 
+    font-family: 'Antonio', sans-serif; 
 }
 .contact  .collect input{
     border: 0.1vw solid white;
@@ -293,7 +299,7 @@
     color: black;
     background-color: white;
     margin-left: 1vw;
-    width: 28%;
+    width: 33%;
     font-weight: bold;
     padding-bottom: 1vw;
     border-radius: 0.7vw;
@@ -304,23 +310,26 @@
 .contact button{
     width: 10%;
     margin-bottom: 5vw;
-    padding-top: 0.5vw;
+    padding-top: 0.7vw;
     margin-left: 1vw;
-    padding-bottom: 0.5vw;
+    padding-bottom: 0.7vw;
     background-color: white;
     color: black;
     border: 0.2vw solid red;
     border-radius: 0.7vw;
 }
 .contact{
-    background-color: black;
+    background: url(../images/car6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    padding-left: 30vw;
+    padding-left: 25vw;
+    padding-top: 3vw;
 }
 .contact .message input{
     border: 0.2vw solid white;
     color: white;
-    width: 60%;
+    width: 68%;
     margin-top: 2vw;
     margin-bottom: 1vw;
     margin-left: 1vw;
