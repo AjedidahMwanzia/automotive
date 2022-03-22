@@ -1,9 +1,23 @@
+body{
+    background-image: url("/image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+    
 h2{
     text-align: center;
-    color: brown;
+    color: rgb(228, 29, 29);
     font-family: 'Kalam', cursive;
     font-family: 'Sansita Swashed', cursive
 }
+p{
+    color: whitesmoke;
+}
+h5{
+    background-color: purple;
+    color: aliceblue;
+    padding: 10px;
+} 
 .logo{
     display: flex;
     justify-content: center;
