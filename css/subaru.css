@@ -1,73 +1,122 @@
 /* font-family: 'Aclonica', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Righteous', cursive; */
-body{
-    scroll-behavior: smooth;
-    font-family: 'Aclonica', sans-serif;
-}
-html{
-    scroll-behavior: smooth;
-}
-#subaru-page{
-    background-image: url("../images/car1.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-a:link{
-    font-family: 'Aclonica', sans-serif;
-    font-size: 1em;
-    font-weight: bold;   
-}
-.link-div{
-    padding-top: 15px;
-
-}
-#car-brand-heading{
-    color: red;
-    font-family: 'Righteous', cursive;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 2.8em;
-    font-weight: bold;
-    letter-spacing: 3px;
-}
-.image{
-    width: 100px;
-    height: 140px;
-}
-.my-card{
-    padding: 5px 8px;
-    margin: 10px 20px;
-    background-color: rgb(104, 102, 102);
-}
-.spare-part-heading{
-    color: red;
-}
-.headlights{
-    padding: 20px 0px;
-    margin-top: 20px;
-    font-family: 'Aclonica', sans-serif;
-}
-.wheels-pipes-mirrors{
-    background-image: url("../images/car.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center; 
-    font-family: 'Aclonica', sans-serif; 
-}
-.spare-heading{
-    padding-top: 90px;
-    padding-bottom: 10px;
-    color: red;
-}
-.go-to-top-btn{
-    float: right;
-   
-}
-.back-to-top{
-    padding-top: 10px;
-    padding-bottom: 10px;    
-}
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Righteous', cursive; 
+    font-family: 'Poppins', sans-serif; */
+    body{
+        scroll-behavior: smooth;
+        font-family: 'Poppins', sans-serif;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        padding: 1vw;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif; 
+    }
+    .navbar{
+        margin-top:0.5vw;
+        margin-bottom: 0.1vw;
+        padding-top: 2vw;
+     
+    }
+    .logo{
+        margin-top: 0.5vw;
+        margin-left: 1vw;
+    }
+    .header img{
+        width: 5vw;
+        margin-top: 0.5vw;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    #subaru-page{
+        background-image: url("../images/car1.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    a:link{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        font-weight: bold;   
+    }
+    .link-div{
+        padding-top: 15px;
+    
+    }
+    #car-brand-heading{
+        color: rgb(253, 251, 251);
+        font-family: 'Poppins', sans-serif;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        font-size: 2em;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .image{
+        width: 100px;
+        height: 150px;
+    }
+    .my-card{
+        padding: 5px 8px;
+        margin: 10px 20px;
+        
+    }
+    .headlights{
+        padding: 20px 0px;
+        margin-top: 20px;
+        font-family: 'Aclonica', sans-serif;
+    }
+    .wheels-pipes-mirrors{
+        background-image: url("../images/car.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center; 
+        font-family: 'Poppins', sans-serif; 
+    }
+    .spare-heading{
+        padding-top: 90px;
+        padding-bottom: 10px;
+        color: red;
+        font-family: 'Poppins', sans-serif;
+    }
+    .headlight-heading{
+        padding-top: 80px;
+    }
+    .go-to-top-btn{
+        float: right;
+       
+    }
+    .back-to-top{
+        padding-top: 10px;
+        padding-bottom: 10px;    
+    }
+    /* jquery */
+    #hdlight,#rimwheel,#pipeexhaust,#mirrorside{
+        display: none;
+    }
+    
+    .home-headings{
+         color: white;
+         font-weight: bold;
+         padding-bottom: 30px;
+         text-align: left;
+         margin-left: 50px;
+    }
+    #category{
+        margin-left: 50px;
+        margin-bottom: 20px;
+        float: left;
+    }
+    
+    
+    
+    
+    
