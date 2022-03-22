@@ -1,0 +1,56 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    background: url(./images/denin-lawley-mpt0txRKmM0-unsplash.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+    color:white;
+}
+.nav img{
+    width: 10vw;
+}
+.nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+}
+.nav ul li {
+    float: right
+}
+h2{
+    color:red;
+}
+option{
+    color:yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-category .box{
+    flex: 1 1 17rem;
+}
