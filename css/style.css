@@ -25,7 +25,8 @@
     color: white;
     padding: 1vw;
     cursor: pointer;
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Antonio', sans-serif; */
 }
 .navbar{
     margin-top:-15vw;
@@ -65,7 +66,7 @@
     color: white;
     border: none;
     border-radius: 1vw;
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     width: 10vw;
     font-family: 'Raleway', sans-serif;
     box-shadow: 0 0.5vw 1.5vw rgba(0, 0, 0, 0.2);
@@ -244,7 +245,8 @@
 }
 /* ..............................................categories..................................................... */
 .categories{
-     height: 30vw;
+    margin-top: -2vw;
+    margin-bottom: 3vw;
 }
 .categories h2{
     color: black;
@@ -253,6 +255,42 @@
     padding-bottom: 2vw;
     font-family: 'Raleway', sans-serif;
 
+}
+.brands{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: 'Antonio', sans-serif;
+}
+.brand img{
+    height: 11vw;
+    box-shadow: 0 0.3vw 0.7vw rgba(0, 0, 0, 0.2);
+    padding: 2vw;
+    width: 20vw;
+    height: 18vw;
+    border-radius: 1.2vw;
+    border: 0.1vw solid grey;
+
+}
+.brand{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+}
+.brand a{
+   text-decoration: none;
+   color: black;
+   border: none;
+   padding: 0.5vw;
+   margin-top: 2vw;
+   border-radius: 1vw;
+   width: 50%;
+   text-align: center;
+   margin-left: 6vw;
+   color: white;
+   background-color: #d73716;
+   font-size: 1.5vw;
+  
 }
 
 /* .................................................about........................................................ */
@@ -314,15 +352,16 @@
     padding-bottom: 0.7vw;
     background-color: white;
     color: black;
-    border: 0.2vw solid red;
-    border-radius: 0.7vw;
+    border-bottom: 0.2vw solid red;
+    border-radius: 0.9vw;
+    font-size: 1.1vw;
 }
 .contact{
     background: url(../images/car6.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding-left: 25vw;
+    padding-left: 23vw;
     padding-top: 3vw;
 }
 .contact .message input{
