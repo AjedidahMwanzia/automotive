@@ -26,7 +26,6 @@
     padding: 1vw;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
-    /* font-family: 'Antonio', sans-serif; */
 }
 .navbar{
     margin-top:-15vw;
@@ -298,22 +297,22 @@
     background-color: #d73716;
     color: white;
     text-align: center;
-    padding-top: 3vw;
+    padding-top: 5vw;
     font-family: 'Antonio', sans-serif;
 }
 .call{
     display: flex;
     margin-left: 37vw;
-    padding-bottom: 4vw;
+  
     
 }
 .call h2{
     padding-left: 1vw;
     font-size: 3vw;
 }
-.about h2{
+.about h3{
     font-size: 3vw;
-    padding-bottom: 1vw;
+    padding-bottom: 7vw;
 }
 .about h4{
     font-size: 1.5vw;
@@ -361,7 +360,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    padding-left: 23vw;
+    padding-left: 21vw;
     padding-top: 3vw;
 }
 .contact .message input{
@@ -377,4 +376,18 @@
     font-weight: bold;
     border-radius: 0.7vw;
     border-bottom: 0.2vw solid red;
+}
+/* ...........................................footer............................................................... */
+footer{
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+.social{
+  margin-bottom: 1vw;
+  padding-left: 1vw;
+  margin-left: 43vw;
+}
+.copy{
+  font-family: 'Antonio', sans-serif;
+  text-align: center;
 }
