@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- googlefonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@400;500;700&family=Righteous&display=swap" rel="stylesheet">
     <!-- css link -->
     <link rel="stylesheet" href="./css/subaru.css">
@@ -18,20 +18,37 @@
 </head>
 <body>
     <a name="top1"></a>
+   
     <div id="subaru-page" class="car-brand-heading container">
+        <div class="header">
+            <div class="logo">
+                <img src="./images/image.png" alt="">
+            </div>
+            <div class="navbar" id="nav">
+                 <a href="#header">Home</a>
+                 <a href="#services">Services</a>
+                 <a href="#about-us">About Us</a>
+                 <a href="#categories">Categories</a>
+                 <a href="#contact">contact</a>
+            </div>
+       </div>
+
         <h2 id="car-brand-heading"><img height="20px" src="./images/logo.png" alt="subaru logo"> subaru spare parts</h2>
+        <h3 class="home-headings" id="home-heading2">Quality and affordable spare parts</h3>
+        <h4 class="home-headings">Click on the button below to see Spare parts Categories</h4>
+        <a class="btn btn-primary" id="category" role="button">View Categories</a>
         <div class="row link-div" >
-           <div class="col-md-3"><a class="btn btn-primary" href="#lights" role="button">Headlights</a></div>
-           <div class="col-md-3"><a class="btn btn-primary" href="#wheels" role="button">Wheels & Rims</a></div>
-           <div class="col-md-3"><a class="btn btn-primary" href="#pipes" role="button">Exhaust pipe</a></div>
-           <div class="col-md-3"><a class="btn btn-primary" href="#mirors" role="button">Side mirrors</a></div>
+           <div class="col-md-3"><a class="btn btn-primary" id="hdlight" href="#lights" role="button">Headlights</a></div>
+           <div class="col-md-3"><a class="btn btn-primary" id="rimwheel" href="#wheels" role="button">Wheels & Rims</a></div>
+           <div class="col-md-3"><a class="btn btn-primary" id="pipeexhaust" href="#pipes" role="button">Exhaust pipe</a></div>
+           <div class="col-md-3"><a class="btn btn-primary" id="mirrorside" href="#mirors" role="button">Side mirrors</a></div>
         </div>
 
     <a name="lights"></a>    
-    <div class="container headlights">
-        <div class="row headlight-row1" >
+    <div class="container headlights" >
+        <div class="row headlight-row1 " >
             <div class="col-12 text-center">                
-                <h2 class="spare-part-heading headlight-heading"> Headlights</h2>
+                <h2 class="spare-heading headlight-heading"> Headlights</h2>
             </div>
 
             <div class="col-sm-6 col-md-4">
@@ -68,7 +85,8 @@
                     </div>
                 </div>   
             </div>
-        </div>  <!--end of headlight-row1 -->
+        </div>
+        <!--end of headlight-row1 -->
 
         <div class="row headlight-row2" >         
             <div class="col-sm-6 col-md-4">
@@ -105,13 +123,16 @@
                     </div>
                 </div>   
             </div>
-        </div> <!--end of headlight-row2-->
-    </div> <!--end of headlight container-->
-</div> <!--end of subaru page-->
+        </div> 
+        <!--end of headlight-row2-->
+    </div> 
+    <!--end of headlight container-->
+</div>
+ <!--end of subaru page-->
 
 <div class="wheels-pipes-mirrors container">
     <a name="wheels"></a>    
-    <div class="container wheels-rims">
+    <div class="container wheels-rims" id="wheels1">
         <div class="row wheels-row1" >
             <div class="col-12 text-center">                
                 <h2 class="spare-heading headlight-heading"> Wheels and Rims</h2>
@@ -151,7 +172,8 @@
                     </div>
                 </div>   
             </div>
-        </div>  <!--end of wheels-row1 -->
+        </div>  
+        <!--end of wheels-row1 -->
 
         <div class="row wheels-row2" >         
             <div class="col-sm-6 col-md-4">
@@ -188,11 +210,13 @@
                     </div>
                 </div>   
             </div>
-        </div> <!--end of wheels-row2-->
-    </div> <!--end of wheels-rims container-->
+        </div> 
+        <!--end of wheels-row2-->
+    </div> 
+    <!--end of wheels-rims container-->
 
     <a name="pipes"></a>    
-        <div class="container exhaust">
+        <div class="container exhaust" id="pipes1">
             <div class="row exhaust-row1" >
                 <div class="col-12 text-center">                
                     <h2 class="spare-heading headlight-heading"> Exhaust Pipes</h2>
@@ -232,7 +256,8 @@
                         </div>
                     </div>   
                 </div>
-            </div>  <!--end of  exhaust-row1 -->
+            </div> 
+            <!--end of  exhaust-row1 -->
 
             <div class="row exhaust-row2" >         
                 <div class="col-sm-6 col-md-4">
@@ -269,11 +294,13 @@
                         </div>
                     </div>   
                 </div>
-            </div> <!--end of exhaust-row2-->
-        </div> <!--end of exhaust container-->
+            </div>
+            <!--end of exhaust-row2-->
+        </div>
+        <!--end of exhaust container-->
 
         <a name="mirors"></a>    
-        <div class="container mirrors">
+        <div class="container mirrors" id="mirors1">
             <div class="row mirrors-row1" >
                 <div class="col-12 text-center">                
                     <h2 class="spare-heading headlight-heading"> Side mirrors</h2>
@@ -364,6 +391,6 @@
  </div>
 
 
-    <script src="./js/script.js"></script>
+    <script src="./js/subaru.js"></script>
 </body>
 </html>
