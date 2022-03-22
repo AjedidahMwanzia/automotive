@@ -3,7 +3,7 @@ body {
  /* font-family: 'Raleway', sans-serif; */
  font-family: 'Poppins', sans-serif;
     text-align:center;
-    background: url(./images/denin-lawley-mpt0txRKmM0-unsplash.jpg);
+    background-image: url(../images/supra.pg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -47,22 +47,6 @@ option{
     padding-top: 80px;
     padding-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.button{
+    color: rgb(20, 173, 15);
+}
