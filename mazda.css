@@ -4,6 +4,15 @@ h2{
     font-family: 'Kalam', cursive;
     font-family: 'Sansita Swashed', cursive
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo > img{
+    width: 30px;
+    height: 30px;
+}
 .spare__parts{
     display: flex;
     flex-direction: row;
@@ -34,6 +43,7 @@ height: 250px;
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
+  
 }
 .wheel>img{
     width: 200px;
