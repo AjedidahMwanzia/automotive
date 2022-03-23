@@ -20,11 +20,7 @@
     padding-top: 2vw;
   
 }
-.logo1{
-    margin-top: 1.8vw;
-    margin-left: -10vw;
-    
-}
+
 .navbar2{
     margin: 0vw 6vw;
 }
@@ -59,10 +55,12 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 60px;
 }
 .logo > img{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+  
 }
 .spare__parts{
     display: flex;
