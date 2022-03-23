@@ -16,24 +16,21 @@
         cursor: pointer;
         font-family: 'Poppins', sans-serif; 
     }
+    .navbar2{
+        margin:0px 60px;
+        
+    }
     .navbar{
         margin-top:0.5vw;
         margin-bottom: 0.1vw;
         padding-top: 2vw;
-     
+        display: inline-block;
     }
     .logo{
         margin-top: 0.5vw;
-        margin-left: 1vw;
+        margin-left: 0.6vw;
     }
-    .header img{
-        width: 5vw;
-        margin-top: 0.5vw;
-    }
-    .header{
-        display: flex;
-        justify-content: center;
-    }
+    
     #subaru-page{
         background-image: url("../images/car1.jpg");
         background-attachment: fixed;
@@ -47,25 +44,25 @@
         font-weight: bold;   
     }
     .link-div{
-        padding-top: 1.5vw;
+        padding-top: 15px;
     
     }
     #car-brand-heading{
         color: rgb(253, 251, 251);
         font-family: 'Poppins', sans-serif;
-        padding-top: 1vw;
-        padding-bottom: 5vw;
+        padding-top: 80px;
+        padding-bottom: 50px;
         font-size: 2em;
         font-weight: bold;
-        letter-spacing: 0.1vw;
+        letter-spacing: 1px;
     }
     .image{
-        width: 10vw;
-        height: 15vw;
+        width: 100px;
+        height: 150px;
     }
     .my-card{
-        padding: 0.5vw 0.8px;
-        margin: 1vw 2vw;
+        padding: 5px 8px;
+        margin: 10px 20px;
         
     }
     .headlights{

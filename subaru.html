@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!-- googlefonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,18 +24,6 @@
     <a name="top1"></a>
    
     <div id="subaru-page" class="car-brand-heading container">
-        <div class="header">
-            <div class="logo">
-                <img src="./images/image.png" alt="">
-            </div>
-            <div class="navbar" id="nav">
-                 <a href="#header">Home</a>
-                 <a href="#services">Services</a>
-                 <a href="#about-us">About Us</a>
-                 <a href="#categories">Categories</a>
-                 <a href="#contact">contact</a>
-            </div>
-       </div>
 
         <h2 id="car-brand-heading"><img height="20px" src="./images/logo.png" alt="subaru logo"> subaru spare parts</h2>
         <h3 class="home-headings" id="home-heading2">Quality and affordable spare parts</h3>
@@ -44,20 +36,28 @@
            <div class="col-md-3"><a class="btn btn-primary" id="mirrorside" href="#mirors" role="button">Side mirrors</a></div>
         </div>
 
+        <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded navbar2" >
+            <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">My Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+            </div>
+        </nav>
+
     <a name="lights"></a>    
     <div class="container headlights" >
         <div class="row headlight-row1 " >
             <div class="col-12 text-center">                
                 <h2 class="spare-heading headlight-heading"> Headlights</h2>
-            </div>
+            </div> 
 
             <div class="col-sm-6 col-md-4">
                 <div class="card border-white my-card">
                     <img src="./images/headlight/headlight1.png" class="card-img-top image" alt="headlight">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 40,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">bugeye</p>
+                        <p class="card-text" >Ksh 40,000</p>
+                        <button type="button" data-name="bugeye" data-price="40000" class="add-to-cart btn btn-primary">Add to cart</button>
                     </div>
                 </div>
             </div>
@@ -68,8 +68,9 @@
                     <img src="./images/headlight/headlight2.png" class="card-img-top image" alt="headlight">
                     <div class="card-body">
                         <hr>
+                        <p class="item">hawkeye</p>
                         <p class="card-text">Ksh 35,500</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <button type="button" data-name="hawkeye" data-price="35000" class="add-to-cart btn btn-primary">Add to cart</button> 
                     </div>
                 </div> 
             </div>
@@ -80,8 +81,9 @@
                     <img src="./images/headlight/headlight3.png" class="card-img-top image" alt="headlight">
                     <div class="card-body">
                         <hr>
+                        <p class="item">sinkeye</p>
                         <p class="card-text">Ksh 42,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <button type="button" data-name="sinkeye" data-price="42000" class="add-to-cart btn btn-primary">Add to cart</button>
                     </div>
                 </div>   
             </div>
@@ -94,8 +96,9 @@
                     <img src="./images/headlight/headlight4.png" class="card-img-top image" alt="headlight">
                     <div class="card-body">
                         <hr>
+                        <p class="item">blobeye</p>
                         <p class="card-text">Ksh 31,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <button type="button" data-name="blobeye" data-price="31000" class="add-to-cart btn btn-primary">Add to cart</button>
                     </div>
                 </div>
             </div> 
@@ -106,8 +109,9 @@
                     <img src="./images/headlight/headlight5.png" class="card-img-top image" alt="headlight">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 41,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">meaneye</p>
+                        <p class="card-text">Ksh 42,500</p>
+                        <button type="button" data-name="meaneye" data-price="42500" class="add-to-cart btn btn-primary" >Add to cart</button>
                     </div>
                 </div> 
             </div>
@@ -118,8 +122,9 @@
                     <img src="./images/headlight/headlight6.png" class="card-img-top image" alt="headlight">
                     <div class="card-body">
                         <hr>
+                        <p class="item">subieeye</p>
                         <p class="card-text">Ksh 38,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <button type="button" data-name="subieeye" data-price="38000" class="add-to-cart btn btn-primary" >Add to cart</button>
                     </div>
                 </div>   
             </div>
@@ -143,8 +148,9 @@
                     <img src="./images/wheels/tyre1.png" class="card-img-top image" alt="tyre">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 140,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">175/65 R14</p>
+                        <p class="card-text">Ksh 4,000</p>
+                        <button type="button" data-name="175/65 R14" data-price="4000" class="add-to-cart btn btn-primary" >Add to cart</button>                    
                     </div>
                 </div>
             </div>
@@ -155,8 +161,9 @@
                     <img src="./images/wheels/tyre2.png" class="card-img-top image" alt="tyre">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 115,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">205/65 R15 </p>
+                        <p class="card-text">Ksh 5,000</p>
+                        <button type="button" data-name="205/65 R15" data-price="5000" class="add-to-cart btn btn-primary" >Add to cart</button>
                     </div>
                 </div> 
             </div>
@@ -167,8 +174,9 @@
                     <img src="./images/wheels/tyre3.png" class="card-img-top image" alt="tyre">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 152,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">185/30 R13</p>
+                        <p class="card-text">Ksh 2,500</p>
+                        <button type="button" data-name="185/30 R13" data-price="2500" class="add-to-cart btn btn-primary" >Add to cart</button>
                     </div>
                 </div>   
             </div>
@@ -181,8 +189,9 @@
                     <img src="./images/wheels/rim1.png" class="card-img-top image" alt="rim">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 3,500</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">contour</p>
+                        <p class="card-text">Ksh 100,500</p>
+                        <button type="button" data-name="contour" data-price="100500" class="add-to-cart btn btn-primary" >Add to cart</button>
                     </div>
                 </div>
             </div> 
@@ -193,8 +202,9 @@
                     <img src="./images/wheels/rim2.png" class="card-img-top image" alt="rim">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 7,000</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">dynamic</p>
+                        <p class="card-text">Ksh 140000</p>
+                        <button type="button" data-name="dynamic" data-price="140000" class="add-to-cart btn btn-primary" >Add to cart</button>
                     </div>
                 </div> 
             </div>
@@ -205,8 +215,9 @@
                     <img src="./images/wheels/rim3.png" class="card-img-top image" alt="rim">
                     <div class="card-body">
                         <hr>
-                        <p class="card-text">Ksh 5,200</p>
-                        <button type="button" class="btn btn-primary">Add to cart</button>
+                        <p class="item">concorde</p>
+                        <p class="card-text">Ksh 125,200</p>
+                        <button type="button" data-name="concorde" data-price="125200" class="add-to-cart btn btn-primary" >Add to cart</button>
                     </div>
                 </div>   
             </div>
@@ -227,8 +238,9 @@
                         <img src="./images/exhaust/exh1.png" class="card-img-top image" alt="exhaust pipe">
                         <div class="card-body">
                             <hr>
+                            <p class="item">dorman</p>
                             <p class="card-text">Ksh 15,000</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <button type="button" data-name="dorman" data-price="15000" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -239,8 +251,9 @@
                         <img src="./images/exhaust/exh2.png" class="card-img-top image" alt="exhaust pipe">
                         <div class="card-body">
                             <hr>
+                            <p class="item">srs</p>
                             <p class="card-text">Ksh 25,000</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <button type="button" data-name="srs" data-price="25000" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div> 
                 </div>
@@ -251,8 +264,9 @@
                         <img src="./images/exhaust/exh3.png" class="card-img-top image" alt="headlight">
                         <div class="card-body">
                             <hr>
+                            <p class="item">dual</p>
                             <p class="card-text">Ksh 18,500</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <button type="button" data-name="dual" data-price="18500" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>   
                 </div>
@@ -265,8 +279,9 @@
                         <img src="./images/exhaust/exh4.png" class="card-img-top image" alt="exhaust pipe">
                         <div class="card-body">
                             <hr>
-                            <p class="card-text">Ksh 32,00</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <p class="item">borla</p>
+                            <p class="card-text">Ksh 32,000</p>
+                            <button type="button" data-name="borla" data-price="32000" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>
                 </div> 
@@ -277,8 +292,9 @@
                         <img src="./images/exhaust/exh5.png" class="card-img-top image" alt="exhaust pipe">
                         <div class="card-body">
                             <hr>
+                            <p class="item">kartboy</p>
                             <p class="card-text">Ksh 30,000</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <button type="button" data-name="kartboy" data-price="30000" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div> 
                 </div>
@@ -289,8 +305,9 @@
                         <img src="./images/exhaust/exh6.png" class="card-img-top image" alt="exhaust pipe">
                         <div class="card-body">
                             <hr>
+                            <p class="item">turbo</p>
                             <p class="card-text">Ksh 41,500</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <button type="button" data-name="turbo" data-price="41500" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>   
                 </div>
@@ -311,8 +328,9 @@
                         <img src="./images/side-mirror/mirror1.png" class="card-img-top image" alt="side mirror">
                         <div class="card-body">
                             <hr>
-                            <p class="card-text">Ksh 3800</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <p class="item">chrome</p>
+                            <p class="card-text">Ksh 4,000</p>
+                            <button type="button" data-name="chrome" data-price="4000" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>
                 </div>
@@ -323,8 +341,9 @@
                         <img src="./images/side-mirror/mirror2.png" class="card-img-top image" alt="side mirror">
                         <div class="card-body">
                             <hr>
+                            <p class="item">carbon</p>
                             <p class="card-text">Ksh 2500</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <button type="button" data-name="carbon" data-price="2500" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div> 
                 </div>
@@ -335,8 +354,9 @@
                         <img src="./images/side-mirror/mirror3.png" class="card-img-top image" alt="side mirror">
                         <div class="card-body">
                             <hr>
-                            <p class="card-text">Ksh 2200</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <p class="item">blindspot</p>
+                            <p class="card-text">Ksh 3,500</p>
+                            <button type="button" data-name="blindspot" data-price="3500" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>   
                 </div>
@@ -348,19 +368,22 @@
                         <img src="./images/side-mirror/mirror4.png" class="card-img-top image" alt="side mirror">
                         <div class="card-body">
                             <hr>
-                            <p class="card-text">Ksh 2700</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <p class="item">dodge</p>
+                            <p class="card-text">Ksh 4000</p>
+                            <button type="button" data-name="dodge" data-price="4000" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>
                 </div> 
                 
+
                 <div class="col-sm-6 col-md-4">
                     <div class="card border-white my-card">
                         <img src="./images/side-mirror/mirror5.png" class="card-img-top image" alt="side mirror">
                         <div class="card-body">
                             <hr>
-                            <p class="card-text">Ksh 3300</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <p class="item">autofold</p>
+                            <p class="card-text">Ksh 5300</p>
+                            <button type="button" data-name="autofold" data-price="5300" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div> 
                 </div>
@@ -371,8 +394,9 @@
                         <img src="./images/side-mirror/mirror6.png" class="card-img-top image" alt="side mirror">
                         <div class="card-body">
                             <hr>
+                            <p class="item">autodimming</p>
                             <p class="card-text">Ksh 3800</p>
-                            <button type="button" class="btn btn-primary">Add to cart</button>
+                            <button type="button" data-name="autodimming" data-price="3800" class="add-to-cart btn btn-primary" >Add to cart</button>
                         </div>
                     </div>   
                 </div>
@@ -385,8 +409,34 @@
             </div>
 
         </div> <!--end of mirrors container-->
+
         
  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="show-cart table">
+            
+          </table>
+          <div>Total price: Ksh <span class="total-cart"></span></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="order-now btn btn-primary">Order now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <script src="./js/subaru.js"></script>
 </body>
 </html>
