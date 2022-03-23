@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-around;
 }
+#downward-arrow{
+    color: white;
+    cursor: pointer;
+}
 .header img{
     width: 9vw;
     margin-top: -1vw;
