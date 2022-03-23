@@ -1,3 +1,33 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header img{
+    width: 9vw;
+    margin-top: -1vw;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 1vw;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Antonio', sans-serif; */
+}
+.navbar{
+    margin-top:1.5vw;
+    margin-bottom: 13vw;
+    padding-top: 2vw;
+  
+}
+.logo1{
+    margin-top: 1.8vw;
+    margin-left: -10vw;
+    
+}
+.navbar2{
+    margin: 0vw 6vw;
+}
 body{
     background-image: url("/image/back.jpg");
     background-repeat: no-repeat;
@@ -6,18 +36,25 @@ body{
     
 h2{
     text-align: center;
+
     color: rgb(228, 29, 29);
     font-family: 'Kalam', cursive;
     font-family: 'Sansita Swashed', cursive
 }
 p{
-    color: whitesmoke;
+    color: black;
 }
 h5{
     background-color: purple;
     color: aliceblue;
     padding: 10px;
 } 
+i{
+   font-size: 22px;
+   color: beige;
+}
+
+ 
 .logo{
     display: flex;
     justify-content: center;
@@ -80,4 +117,12 @@ height: 250px;
 .mirror>img{
     width: 200px;
     height: 200px;
+}
+.flex{
+    margin: 20px 0px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
