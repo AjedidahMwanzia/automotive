@@ -1,11 +1,7 @@
-// ************************************************
-// Shopping Cart API
-// ************************************************
+
 
 var shoppingCart = (function() {
-    // =============================
-    // Private methods and propeties
-    // =============================
+
     cart = [];
     
     // Constructor
@@ -29,9 +25,7 @@ var shoppingCart = (function() {
     }
     
   
-    // =============================
-    // Public methods and propeties
-    // =============================
+
     var obj = {};
     
     // Add to cart
@@ -120,25 +114,9 @@ var shoppingCart = (function() {
       }
       return cartCopy;
     }
-  
-    // cart : Array
-    // Item : Object/Class
-    // addItemToCart : Function
-    // removeItemFromCart : Function
-    // removeItemFromCartAll : Function
-    // clearCart : Function
-    // countCart : Function
-    // totalCart : Function
-    // listCart : Function
-    // saveCart : Function
-    // loadCart : Function
     return obj;
   })();
-  
-  
-  // *****************************************
-  // Triggers / Events
-  // ***************************************** 
+   
   // Add item
   $('.add-to-cart').click(function(event) {
     event.preventDefault();
