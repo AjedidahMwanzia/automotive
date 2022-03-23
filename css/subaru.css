@@ -1,23 +1,34 @@
-/* font-family: 'Aclonica', sans-serif;
+/*  font-family: 'Aclonica', sans-serif;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Raleway', sans-serif
     font-family: 'Righteous', cursive; 
     font-family: 'Poppins', sans-serif; */
     body{
         scroll-behavior: smooth;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Antonio', sans-serif;
     }
     html{
         scroll-behavior: smooth;
+    }
+    .home{
+        font-weight: bold;
+        margin-left: 250px;
+        margin-right: 180px;
+    }
+    .my-cart1{
+        margin-right: 20px;
+        margin-left: 100px;
     }
     .navbar a{
         text-decoration: none;
         color: white;
         padding: 1vw;
         cursor: pointer;
-        font-family: 'Poppins', sans-serif; 
+        font-family: 'Antonio', sans-serif;
     }
     .navbar2{
-        margin:0px 60px;
+            overflow: hidden;
         
     }
     .navbar{
@@ -49,16 +60,16 @@
     }
     #car-brand-heading{
         color: rgb(253, 251, 251);
-        font-family: 'Poppins', sans-serif;
-        padding-top: 80px;
-        padding-bottom: 50px;
+        font-family: 'Antonio', sans-serif;
+        padding-top: 120px;
+        padding-bottom: 120px;
         font-size: 2em;
         font-weight: bold;
         letter-spacing: 1px;
     }
     .image{
         width: 100px;
-        height: 150px;
+        height: 190px;
     }
     .my-card{
         padding: 5px 8px;
@@ -68,7 +79,7 @@
     .headlights{
         padding: 20px 0px;
         margin-top: 20px;
-        font-family: 'Aclonica', sans-serif;
+        font-family: 'Antonio', sans-serif;
     }
     .wheels-pipes-mirrors{
         background-image: url("../images/car.png");
