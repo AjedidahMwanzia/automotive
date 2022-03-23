@@ -258,7 +258,21 @@
     flex-wrap: wrap;
     color: white;
     margin-bottom: 3vw;
+    margin-top: 2vw;
   }
+  .title2 h2{
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    margin-top: 3vw;
+    font-family: 'Raleway', sans-serif;
+
+}
+.title2 hr{
+   margin-left: 47vw;
+   margin-top: -1.5vw;
+   margin-bottom: 4vw;
+}
   .cards h3{
     font-family: 'Antonio', sans-serif;
   }
@@ -389,11 +403,25 @@
     flex-wrap: wrap;
     color: white;
     margin-bottom: 3vw;
+    margin-top: 3vw;
   }
   .cards h3{
     font-family: 'Antonio', sans-serif;
     font-family: 1.5vw;
   }
+  .title2 h2{
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    margin-top: 3vw;
+    font-family: 'Raleway', sans-serif;
+
+}
+.title2 hr{
+   margin-left: 47vw;
+   margin-top: -1.5vw;
+   margin-bottom: 4vw;
+}
  .cards img{
     width: 17vw;
     height: 10vw;
@@ -601,6 +629,7 @@
     }
 }
 /* ..............................................categories..................................................... */
+
 .categories{
     margin-top: -2vw;
     margin-bottom: 3vw;
@@ -655,7 +684,8 @@
             margin-top: -2vw;
             margin-bottom: 3vw;
         }
-        .categories h2{
+
+            .categories h2{
             color: black;
             text-align: center;
             padding-top: 3vw;
@@ -708,12 +738,24 @@
     padding-top: 5vw;
     font-family: 'Antonio', sans-serif;
 }
+.title3 h2{
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    margin-top: 3vw;
+    font-family: 'Raleway', sans-serif;
+
+}
+.title3 hr{
+   margin-left: 47vw;
+   margin-top: -1.5vw;
+   margin-bottom: 4vw;
+}
 .call{
     display: flex;
     margin-left: 37vw;
-  
-    
 }
+
 .call h2{
     padding-left: 1vw;
     font-size: 3vw;
@@ -755,6 +797,20 @@
         }
      }
 /* .................................................contact....................................................... */
+
+.title4 h2{
+    text-align: center;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    margin-top: 3vw;
+    font-family: 'Raleway', sans-serif;
+
+}
+.title4 hr{
+   margin-left: 47vw;
+   margin-top: -1.5vw;
+   margin-bottom: 4vw;
+}
 .contact h2{
     padding-left: 23vw;
     padding-bottom: 1vw; 
@@ -840,6 +896,19 @@
             padding-left: 2vw;
             padding-top: 0.5vw;
           
+        }
+        .title4 h2{
+            text-align: center;
+            margin-bottom: 2vw;
+            font-size: 2vw;
+            margin-top: 3vw;
+            font-family: 'Raleway', sans-serif;
+        
+        }
+        .title4 hr{
+           margin-left: 47vw;
+           margin-top: -1.5vw;
+           margin-bottom: 4vw;
         }
         .contact button{
             width: 14%;
