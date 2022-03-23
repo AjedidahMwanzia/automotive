@@ -73,7 +73,7 @@ Feel free to fork the project and have fun with it.
 ## Reference
 * Materialize CSS
 
-[Go Back to the top](#Lucrative Automotive)
+[Go Back to the top](#Lucrative-Automotive)
 
 ## Licence
 
@@ -88,7 +88,7 @@ Feel free to fork the project and have fun with it.
 -   Portfolio - [Ajedidah Mwanzia](https://ajedidahmwanzia.github.io/portfolio/)
 
 
-[Go Back to the top](#lucrative automotive )
+[Go Back to the top](#Lucrative-Automotive)
 
 
 
