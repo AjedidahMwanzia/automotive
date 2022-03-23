@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -15,25 +20,330 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/toyota.css">
-    <script src="./js/toyota script.js"></script>
+    <style>
+        
+        .nav ul li a:hover {
+            color: grey;
+            
+        }
+    </style>
+       <title>Toyota Spare Parts</title>
+    </head>
 
-    <title>TOYOTA Spare Parts</title>
-</head>
+    <body>
+        <div class="landing container-fluid">
+        <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded navbar2">
+            <div class="row">
+                <div class="col">
+                    <a href="./index.html">HOME</a>
+                    <a href="#level1">ENGINES</a>
+                    <a href="#level2">EXHAUST</a>
+                    <a href="#level3">SUSPENSIONS</a>
+                    <a href="#level4">SHOCKS</a>
+                  <button type="button" class="btn btn-primary my-cart" data-toggle="modal" data-target="#cart">My Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger clear-cart">Clear Cart</button></div>
+            </div>
+        </nav>
 
-<body>
-    <div class="nav">
-        <div class="logo"><img src="./images/new automotive logo.png" alt="logo"></div>
-        <ul>
-            <li><a href="./category.html">CATEGORY</a></li>
-            <li><a href="toyota.html">HOME</a></li>
-        </ul>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="main col-md-5 offset-7">
-                <div class="view-one">
-                    <h1>GET YOUR TOYOTA SPARE PARTS HERE AT AFFORDABLE PRICE.</h1>
-                    <a href="./category.html">
-                    </a>
-                   
-                
+        <div class="subheading">
+            <h1 class="sub-heading" id="sub-heading1"> SPARE PARTS HERE AT AFFORDABLE PRICE</h1>
+            <h3 class="sub-heading" id="sub-heading2">IMPORTED QUALITY SPARE PARTS</h3>
+        </div>
+        <a name="level1"></a>
+        <div class="container category">
+            <h2 class="engine-heading category-heading">ENGINES</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-derwin-edwards-10866831.jpg" alt="2JZ-GTE Inline-Six">
+                        <div class="card-body">
+                            <h4 class="card-title">"2JZ-GTE Inline-Six</h4>
+                            <p class="card-text">Ksh.150,000</p>
+                            <button type="button" data-name="2JZ-GTE Inline-Six" data-price="150000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-erik-mclean-4517069.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">1JZ-GTE Inline-Six</h4>
+                            <p class="card-text">Ksh.175,000</p>
+                            <button type="button" data-name="1JZ-GTE Inline-Six" data-price="175000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-markus-spiske-2027045.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">4A-GE Inline-Four</h4>
+                            <p class="card-text">Ksh.120,000</p>
+                            <button type="button" data-name="4A-GE Inline-Four" data-price="120000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-mike-190574.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">3S-GTE Inline-Four</h4>
+                            <p class="card-text">Ksh.200,000</p>
+                            <button type="button" data-name="3S-GTE Inline-Four" data-price="200000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-pixabay-65623.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">4U-GSE / FA20</h4>
+                            <p class="card-text">Ksh.125,000</p>
+                            <button type="button" data-name="4U-GSE / FA20 Flat-Four" data-price="125000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-tim-mossholder-3076820.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">1LR-GUE V-10</h4>
+                            <p class="card-text">Ksh.180,000</p>
+                            <button type="button" data-name="1LR-GUE V-10" data-price="180000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a name="level2"></a>
+            <div class="container category">
+                <h2 class="category-heading">EXHAUSTS</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/istockphoto-91077387-170667a.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">AFe XP Cat-Back</h4>
+                            <p class="card-text">Ksh.12,000</p>
+                            <button type="button" data-name="AFe XP Cat-Back Exhaust System" data-price="12000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/jonathan-gallegos-oDNDadhppGI-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Borla 140332</h4>
+                            <p class="card-text">Ksh.18,000</p>
+                            <button type="button" data-name="Borla 140332" data-price="18000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/justus-menke-PqszIxpLefE-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title"> Mac Auto Parts Federal</h4>
+                            <p class="card-text">Ksh.5,000</p>
+                            <button type="button" data-name=" Mac Auto Parts Federal Emissions Exhaust Pipe System" data-price="5000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/matt-boitor-I74mkR_3OP0-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Walker Exhaust</h4>
+                            <p class="card-text">Ksh.33,000</p>
+                            <button type="button" data-name="Walker Exhaust Quiet-Flow 47774" data-price="33000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/nick-ter-haar-gLxo-qpWiT0-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Rough Country Dual</h4>
+                            <p class="card-text">Ksh.22,000</p>
+                            <button type="button" data-name="Rough Country Dual Cat-Back Exhaust" data-price="22000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/what-is-picture-perfect-rIbHxIKsue4-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title"> MagnaFlow Cat-Back</h4>
+                            <p class="card-text">Ksh.6,000</p>
+                            <button type="button" data-name="MagnaFlow Cat-Back Performance Exhaust System" data-price="6000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <a name="level3"></a>
+            <div class="container category">
+                <h2 class="category-heading">SUSPENSIONS</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/pexels-the-lazy-artist-gallery-2527923.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Multi-Link Suspension</h4>
+                                <p class="card-text">Ksh.9,000</p>
+                                <button type="button" data-name="Multi-Link Suspension" data-price="9000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/yamaha-gac79283b2_1920.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Rigid Axle Suspension</h4>
+                                <p class="card-text">Ksh.12,000</p>
+                                <button type="button" data-name="Rigid Axle Suspension" data-price="12000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/luca-beani--xtcC8cKY-s-un.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Mac Suspension</h4>
+                                <p class="card-text">Ksh.16,000</p>
+                                <button type="button" data-name="Macpherson Suspension" data-price="16000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/car-engine-g655feabde_1920.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Double Wishbone</h4>
+                                <p class="card-text">Ksh.25,000</p>
+                                <button type="button" data-name="Double Wishbone Suspension" data-price="25000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/technology-g341898efb_1920.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Indedent Suspension</h4>
+                                <p class="card-text">Ksh.4,000</p>
+                                <button type="button" data-name="Independent Suspension" data-price="4000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/air suspension jpg.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Air Suspension</h4>
+                                <p class="card-text">Ksh.30,000</p>
+                                <button type="button" data-name="Air Suspension" data-price="30000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a name="level4"></a>
+                <div class="container category">
+                    <h2 class="category-heading">SHOCKS</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card my-card">
+                                <img class="card-img-top pic" src="./images/shock-absorber 1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">TBilstein 5100</h4>
+                                <p class="card-text">Ksh.33,000</p>
+                                <button type="button" data-name="TBilstein 5100 Monotube Gas Shocksitle" data-price="33000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/shock-absorber 2.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Rancho Quicklift</h4>
+                                <p class="card-text">Ksh.30,000</p>
+                                <button type="button" data-name="Rancho Quicklift Leveling Struts Pair" data-price="30000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/shock-absorber 3.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Bilstein Shock</h4>
+                                <p class="card-text">Ksh.46,000</p>
+                                <button type="button" data-name="Bilstein Shock Absorber" data-price="46000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card my-card">
+                                <img class="card-img-top pic" src="./images/shock-absorber 4.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bilstein 4600</h4>
+                                    <p class="card-text">Ksh.29,000</p>
+                                    <button type="button" data-name="Bilstein 4600 Series Shock Absorbers" data-price="29000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card my-card">
+                                <img class="card-img-top pic" src="./images/metal-g4ada4404d_1280.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bilstein 5100 Lift</h4>
+                                    <p class="card-text">Ksh.19,000</p>
+                                    <button type="button" data-name="Bilstein 5100 Lift Shocks" data-price="19000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/double shock jpg.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Monroe 58637 Load</h4>
+                                <p class="card-text">Ksh.40,000</p>
+                                <button type="button" data-name="Monroe 58637 Load Adjust Shock Absorber" data-price="40000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="show-cart table">
+                        
+                      </table>
+                      <div>Total price: Ksh <span class="total-cart"></span></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary order-now">Order now</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <script src="./js/toyota script.js"></script>
+        </div>
+    </body>
+         
+</html>    

@@ -1,11 +1,17 @@
 body {
     /* font-family: 'Antonio', sans-serif; */
- /* font-family: 'Raleway', sans-serif; */
- font-family: 'Poppins', sans-serif;
-    text-align:center;
+ font-family: 'Raleway', sans-serif;
+ /* font-family: 'Poppins', sans-serif;
+    text-align:center; */
+    /* background-image: url(../images/supra.pg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; */
+}
+.landing{
     background-image: url(../images/supra.pg.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1 {
     font-family:Arial, Helvetica, sans-serif;
@@ -29,6 +35,7 @@ h1 {
 }
 h2{
     color:red;
+    text-align: center;
 }
 option{
     color:black;
@@ -37,11 +44,14 @@ option{
 }
 .pic{
     width: 300px;
-    height: 250px;
+    height: 230px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 .my-card{
-    padding: 5px 8px;
-    margin: 10px 20px;
+    padding: 10px 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 .category-heading{
     padding-top: 80px;
@@ -49,6 +59,31 @@ option{
 }
 .button{
     color: rgb(20, 173, 15);
+}
+.col-md-4{
+    display: table-cell;
+}
+.my-cart{
+    margin-right: 30px;
+    margin-left: 25px;
+}
+.navbar2 a{
+    margin-left: 55px ;
+}
+.navbar2{
+    overflow: hidden;
+
+}
+.sub-heading{
+    padding-bottom: 25px;
+    color: burlywood;
+    text-align: center;
+}
+#sub-heading1{
+    padding-top: 190px;
+}
+#sub-heading2{
+    padding-bottom: 450px;
 }
 /* .cart-header{
     font-weight: bold;
