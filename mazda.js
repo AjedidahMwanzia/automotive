@@ -1,7 +1,7 @@
 // ************************************************
 // Shopping Cart API
 // ************************************************
-
+alert('working');
 var shoppingCart = (function() {
     // =============================
     // Private methods and propeties
