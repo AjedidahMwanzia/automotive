@@ -6,6 +6,10 @@
     color: white;
     cursor: pointer;
 }
+.mycart{
+    margin-left: 100px;
+    margin-right: 50px;
+}
 .header img{
     width: 9vw;
     margin-top: -1vw;
@@ -30,7 +34,8 @@
 }
 
 .navbar2{
-    margin: 0vw 6vw;
+    display: flex;
+    overflow: hidden;
 }
 body{
     background-image: url("/image/back.jpg");
@@ -40,10 +45,10 @@ body{
     
 h2{
     text-align: center;
-
+   padding-top: 100px;
     color: rgb(228, 29, 29);
-    font-family: 'Kalam', cursive;
-    font-family: 'Sansita Swashed', cursive
+    font-family: 'Raleway',sans-serif;
+   
 }
 p{
     color: black;
@@ -63,12 +68,13 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-}
-.logo > img{
-    width: 40px;
-    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   
+}
+#heads{
+   margin-top: -10px; 
+   padding 3 vw 6 vw
 }
 .spare__parts{
     display: flex;
@@ -90,6 +96,7 @@ height: 250px;
 }
 .head{
     margin-right: 10px;
+
 }
 .head>img{
     width: 200px;
@@ -131,4 +138,6 @@ height: 250px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding: 40px;
+
 }
