@@ -6,6 +6,10 @@
     width: 9vw;
     margin-top: -1vw;
 }
+#spare-parts-nav{
+    background-color: black;
+    color: aliceblue;
+}
 .navbar a{
     text-decoration: none;
     color: white;
