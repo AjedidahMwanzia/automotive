@@ -211,4 +211,14 @@ var shoppingCart = (function() {
   });
   
   displayCart();
+<<<<<<< HEAD
   
+=======
+  
+
+  const downwardArrow = document.getElementById("downward-arrow");
+
+  downwardArrow.addEventListener("click", ()=> {
+    window.scrollTo(0,document.body.scrollHeight);
+  })
+>>>>>>> adeline

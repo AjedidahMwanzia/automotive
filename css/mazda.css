@@ -2,10 +2,28 @@
     display: flex;
     justify-content: space-around;
 }
+<<<<<<< HEAD
+=======
+#downward-arrow{
+    color: white;
+    cursor: pointer;
+}
+.mycart{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+>>>>>>> adeline
 .header img{
     width: 9vw;
     margin-top: -1vw;
 }
+<<<<<<< HEAD
+=======
+#spare-parts-nav{
+    background-color: black;
+    color: aliceblue;
+}
+>>>>>>> adeline
 .navbar a{
     text-decoration: none;
     color: white;
@@ -22,7 +40,12 @@
 }
 
 .navbar2{
+<<<<<<< HEAD
     margin: 0vw 6vw;
+=======
+    display: flex;
+    overflow: hidden;
+>>>>>>> adeline
 }
 body{
     background-image: url("/image/back.jpg");
@@ -32,10 +55,17 @@ body{
     
 h2{
     text-align: center;
+<<<<<<< HEAD
 
     color: rgb(228, 29, 29);
     font-family: 'Kalam', cursive;
     font-family: 'Sansita Swashed', cursive
+=======
+   padding-top: 100px;
+    color: rgb(228, 29, 29);
+    font-family: 'Raleway',sans-serif;
+   
+>>>>>>> adeline
 }
 p{
     color: black;
@@ -55,6 +85,7 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     margin-top: 60px;
 }
 .logo > img{
@@ -62,6 +93,16 @@ i{
     height: 40px;
   
 }
+=======
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+}
+#heads{
+   margin-top: -10px; 
+   padding: 3 vw 6 vw;
+}
+>>>>>>> adeline
 .spare__parts{
     display: flex;
     flex-direction: row;
@@ -82,6 +123,10 @@ height: 250px;
 }
 .head{
     margin-right: 10px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> adeline
 }
 .head>img{
     width: 200px;
@@ -123,4 +168,9 @@ height: 250px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+<<<<<<< HEAD
+=======
+    padding: 40px;
+
+>>>>>>> adeline
 }
