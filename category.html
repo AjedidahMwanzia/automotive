@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- raleway font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,900;1,300&display=swap" rel="stylesheet">
+          <!-- antonio font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/toyota.css">
+    <style>
+         body {
+            background:black;
+        }
+        
+        .nav ul li a:hover {
+            color: grey;
+            
+        }
+    </style>
+       <title>Toyota Spare Parts</title>
+    </head>
+
+    <body>
+        <div class="nav">
+            <div class="logo"><img src="./images/new toyota logo.png" alt="logo"></div>
+            <ul>
+                <li><a href="./category.html">CATEGORY</a></li>
+                <li><a href="./toyota.html">HOME</a></li>
+        </div>
+
+        <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded navbar2">
+            <div class="row">
+                <div class="col">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">My Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+            </div>
+        </nav>
+
+        <div class="container category">
+            <h2 class="engine-heading category-heading">ENGINES</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-derwin-edwards-10866831.jpg" alt="2JZ-GTE Inline-Six">
+                        <div class="card-body">
+                            <h4 class="card-title">"2JZ-GTE Inline-Six</h4>
+                            <p class="card-text">The 2JZ-GTE is an inline-layout, six-cylinder, belt-driven dual overhead camshaft, air-intercooled, twin-turbocharged, cast-iron block, aluminium cylinder headed engine designed and manufactured by Toyota Motor Corporation.</p>
+                            <p class="card-text">Ksh.150,000</p>
+                            <button type="button" data-name="2JZ-GTE Inline-Six" data-price="150000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-erik-mclean-4517069.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">1JZ-GTE Inline-Six</h4>
+                            <p class="card-text">Toyota's 1JZ is a 2.5-liter straight-six naturally aspirated or turbocharged gasoline engine out of JZ family which also includes 3.0-liter version - 2JZ engine.</p>
+                            <p class="card-text">Ksh.175,000</p>
+                            <button type="button" data-name="1JZ-GTE Inline-Six" data-price="175000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-markus-spiske-2027045.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">4A-GE Inline-Four</h4>
+                            <p class="card-text">The basic 4A is a SOHC inline 4 8-valve carburated engine which produces 58–67 kW (78–90 hp; 79–91 PS) at 4800 rpm and 115 N⋅m (85 lb⋅ft) of torque at 2800 rpm, though the power and torque output figures vary between different regions of the world.</p>
+                            <p class="card-text">Ksh.120,000</p>
+                            <button type="button" data-name="4A-GE Inline-Four" data-price="120000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-mike-190574.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">3S-GTE Inline-Four</h4>
+                            <p class="card-text">The 3S-GTE is a 2.0-liter inline-four turbocharged gasoline engine, produced by Toyota from 1986 to 2007. The engine is based on a naturally aspirated version of Toyota's 3S family - 3S-GE. This 2.0L turbo engine was offered for the Toyota Celica (ST165, ST185, ST205), MR2, and Caldina GT-T/GT-Four.</p>
+                            <p class="card-text">Ksh.200,000</p>
+                            <button type="button" data-name="3S-GTE Inline-Four" data-price="200000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-pixabay-65623.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">4U-GSE / FA20 Flat-Four</h4>
+                            <p class="card-text">4U. Appearing in the Toyota 86 (also known as the Toyota GT 86 in Europe, Scion FR-S in the US and Subaru BRZ), the 4U-GSE is a boxer type engine with four cylinders and a bore and stroke of 86 mm (3.39 in). The engine is a Subaru designed and built flat-four engine, the FA20, with a Toyota engine code.</p>
+                            <p class="card-text">Ksh.125,000</p>
+                            <button type="button" data-name="4U-GSE / FA20 Flat-Four" data-price="125000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/pexels-tim-mossholder-3076820.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">1LR-GUE V-10</h4>
+                            <p class="card-text">1LR-GUE is a 4,805 cc (4.8 L; 293.2 cu in) DOHC 4 valves per cylinder V10 engine, made from aluminium alloy, magnesium alloy and titanium alloy and is smaller than most V8s.</p>
+                            <p class="card-text">Ksh.180,000</p>
+                            <button type="button" data-name="1LR-GUE V-10" data-price="180000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container category">
+                <h2 class="category-heading">EXHAUSTS</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/istockphoto-91077387-170667a.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">AFe XP Cat-Back Exhaust System</h4>
+                            <p class="card-text">The aFe Mach Force XP Cat-Back creates maximum performance and extreme mileage gains. This free flowing rear side exit exhaust system is constructed out of durable 2.5 inches mandrel bent 409 stainless steel and uses bayonet style hangers and band clamps for a hassle-free installation.</p>
+                            <p class="card-text">Ksh.12,000</p>
+                            <button type="button" data-name="AFe XP Cat-Back Exhaust System" data-price="12000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/jonathan-gallegos-oDNDadhppGI-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Borla 140332</h4>
+                            <p class="card-text">Borla Cat-Back exhausts feature patented, straight-through and multi-core technology to unleash hidden horsepower. Increased exhaust velocity adds power, driving excitement, fuel economy and the distinctive BORLA Sound of Power respected by motoring enthusiasts everywhere.</p>
+                            <p class="card-text">Ksh.18,000</p>
+                            <button type="button" data-name="Borla 140332" data-price="18000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/justus-menke-PqszIxpLefE-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title"> Mac Auto Parts Federal Emissions Exhaust Pipe System</h4>
+                            <p class="card-text">This Item Is A New Ultra Fit Brand Oe Style Replacement Direct Fit Bolt On Engine Flex Pipe : For Toyota Fits: Toyota Corolla 1.8L Federal Emissions ModelsOnly Toyota Corolla 1.6L Federal Emissions.</p>
+                            <p class="card-text">Ksh.5,000</p>
+                            <button type="button" data-name=" Mac Auto Parts Federal Emissions Exhaust Pipe System" data-price="5000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/matt-boitor-I74mkR_3OP0-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Walker Exhaust Quiet-Flow 47774</h4>
+                            <p class="card-text">CORROSION RESISTANT STAINLESS STEEL -- The only broad-market muffler with 100% stainless-steel construction that delivers longer life versus aluminized mufflers while an internal drainage system reduces moisture collection.</p>
+                            <p class="card-text">Ksh.33,000</p>
+                            <button type="button" data-name="Walker Exhaust Quiet-Flow 47774" data-price="33000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/nick-ter-haar-gLxo-qpWiT0-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Rough Country Dual Cat-Back Exhaust</h4>
+                            <p class="card-text">These durable exhaust systems are fine tuned to improve air flow and deliver and the perfect aftermarket exhaust note that will put a smile on your face every time you hit the gas. </p>
+                            <p class="card-text">Ksh.22,000</p>
+                            <button type="button" data-name="Rough Country Dual Cat-Back Exhaust" data-price="22000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card my-card">
+                        <img class="card-img-top pic" src="./images/what-is-picture-perfect-rIbHxIKsue4-unsplash.jpg" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title"> MagnaFlow Cat-Back Performance Exhaust System</h4>
+                            <p class="card-text">The Street Series Stainless Performance Exhaust system delivers dyno proven power with a comfortable interior sound and performance exterior sound.</p>
+                            <p class="card-text">Ksh.6,000</p>
+                            <button type="button" data-name="MagnaFlow Cat-Back Performance Exhaust System" data-price="6000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container category">
+                <h2 class="category-heading">SUSPENSIONS</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/pexels-the-lazy-artist-gallery-2527923.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Multi-Link Suspension</h4>
+                                <p class="card-text">A multi-link suspension is a type of vehicle suspension with one or more longitudinal arms. A wider definition can consider any independent suspensions having three control links or more multi-link suspensions.</p>
+                                <p class="card-text">Ksh.9,000</p>
+                                <button type="button" data-name="Multi-Link Suspension" data-price="9000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/yamaha-gac79283b2_1920.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Rigid Axle Suspension</h4>
+                                <p class="card-text">A beam axle, rigid axle or solid axle is a dependent suspension design in which a set of wheels is connected laterally by a single beam or shaft.</p>
+                                <p class="card-text">Ksh.12,000</p>
+                                <button type="button" data-name="Rigid Axle Suspension" data-price="12000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/luca-beani--xtcC8cKY-s-un.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title"> Macpherson Suspension</h4>
+                                <p class="card-text">MacPherson strut is a type of automotive suspension system that uses the top of a telescopic damper as the upper steering pivot. It is widely used in the front suspension.</p>
+                                <p class="card-text">Ksh.16,000</p>
+                                <button type="button" data-name="Macpherson Suspension" data-price="16000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/car-engine-g655feabde_1920.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Double Wishbone Suspension</h4>
+                                <p class="card-text">Double wishbone suspension allows each wheel to act and react independently from the others.</p>
+                                <p class="card-text">Ksh.25,000</p>
+                                <button type="button" data-name="Double Wishbone Suspension" data-price="25000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/technology-g341898efb_1920.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Independent Suspension</h4>
+                                <p class="card-text">Independent suspension is any automobile suspension system that allows each wheel on the same axle to move vertically. </p>
+                                <p class="card-text">Ksh.4,000</p>
+                                <button type="button" data-name="Independent Suspension" data-price="4000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/air suspension jpg.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Air Suspension</h4>
+                                <p class="card-text">An air suspension system is a style of vehicle suspension that's powered by an electric pump or compressor that pumps air into flexible bellows that are typically made out of a textile-reinforced type of rubber.</p>
+                                <p class="card-text">Ksh.30,000</p>
+                                <button type="button" data-name="Air Suspension" data-price="30000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container category">
+                    <h2 class="category-heading">SHOCKS</h2>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card my-card">
+                                <img class="card-img-top pic" src="./images/shock-absorber 1.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">TBilstein 5100 Monotube Gas Shocksitle</h4>
+                                <p class="card-text">Bilstein 5100 shocks utilize a monotube design, with a 46mm digressive piston, to increase road handling characteristics both on and off-road. The single tube body allows for rapid heat transfer between the shock oil to the shock body, and then dissipated further to reduce shock fade.</p>
+                                <p class="card-text">Ksh.33,000</p>
+                                <button type="button" data-name="TBilstein 5100 Monotube Gas Shocksitle" data-price="33000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/shock-absorber 2.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Rancho Quicklift Leveling Struts Pair</h4>
+                                <p class="card-text">Award-winning Rancho QUICKLIFT Loaded assemblies level and lift late-model trucks and SUVs, providing an aggressive stance and allowing for the use of larger wheel and tire packages without the cost of a complete suspension system or the long installation time. </p>
+                                <p class="card-text">Ksh.30,000</p>
+                                <button type="button" data-name="Rancho Quicklift Leveling Struts Pair" data-price="30000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/shock-absorber 3.png" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Bilstein Shock Absorber</h4>
+                                <p class="card-text">Switching to mono-tube gas pressure shock absorbers (such as BILSTEIN B6) improves the vehicle's overall driving performance and provides greater damping force, thereby improving safety and fun at the wheel.</p>
+                                <p class="card-text">Ksh.46,000</p>
+                                <button type="button" data-name="Bilstein Shock Absorber" data-price="46000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card my-card">
+                                <img class="card-img-top pic" src="./images/shock-absorber 4.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bilstein 4600 Series Shock Absorbers</h4>
+                                    <p class="card-text">Bilstein B6 4600 Shock Absorbers Are Designed As A Direct Fit Upgrade To Oe Shock Absorbers On Stock Height Light Trucks And Suvgs. These Shock Absorbers Feature A Monotube Design Which Provides Consistent Fade Free Performance. </p>
+                                    <p class="card-text">Ksh.29,000</p>
+                                    <button type="button" data-name="Bilstein 4600 Series Shock Absorbers" data-price="29000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card my-card">
+                                <img class="card-img-top pic" src="./images/metal-g4ada4404d_1280.jpg" alt="">
+                                <div class="card-body">
+                                    <h4 class="card-title">Bilstein 5100 Lift Shocks</h4>
+                                    <p class="card-text"> Bilstein 5100 (Ride Height Adjustable) shock are absorbers with a front OE coilover style suspension. Multiple snap-ring grooves in the body allow for different spring seat positions, providing 0-2.75 inches of front lift (depending on application).</p>
+                                    <p class="card-text">Ksh.19,000</p>
+                                    <button type="button" data-name="Bilstein 5100 Lift Shocks" data-price="19000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-md-4">
+                        <div class="card my-card">
+                            <img class="card-img-top pic" src="./images/double shock jpg.jpg" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Monroe 58637 Load Adjust Shock Absorber</h4>
+                                <p class="card-text"> Monroe load adjusting shock absorbers feature a heavy gauge calibrated spring to rapidly adjust to changing road conditions and reduce vehicle sag when up to 1,200 lbs* of additional weight is added.</p></p>
+                                <p class="card-text">Ksh.40,000</p>
+                                <button type="button" data-name="Monroe 58637 Load Adjust Shock Absorber" data-price="40000" class="add-to-cart btn btn-primary" >Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="show-cart table">
+                        
+                      </table>
+                      <div>Total price: Ksh <span class="total-cart"></span></div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary order-now">Order now</button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            </div>
+            <script src="./js/toyota script.js"></script>
+        </div>
+    </body>
+         
+</html>    
