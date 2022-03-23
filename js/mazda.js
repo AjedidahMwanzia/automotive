@@ -1,5 +1,3 @@
-
-
 var shoppingCart = (function() {
 
     cart = [];
@@ -189,5 +187,4 @@ var shoppingCart = (function() {
   });
   
   displayCart();
-
 

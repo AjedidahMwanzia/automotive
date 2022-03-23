@@ -1,0 +1,130 @@
+/*  font-family: 'Aclonica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Antonio', sans-serif;
+    font-family: 'Raleway', sans-serif
+    font-family: 'Righteous', cursive; 
+    font-family: 'Poppins', sans-serif; */
+    body{
+        scroll-behavior: smooth;
+        font-family: 'Antonio', sans-serif;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .home{
+        font-weight: bold;
+        margin-left: 250px;
+        margin-right: 180px;
+    }
+    .my-cart1{
+        margin-right: 20px;
+        margin-left: 100px;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: white;
+        padding: 1vw;
+        cursor: pointer;
+        font-family: 'Antonio', sans-serif;
+    }
+    .navbar2{
+            overflow: hidden;
+        
+    }
+    .navbar{
+        margin-top:0.5vw;
+        margin-bottom: 0.1vw;
+        padding-top: 2vw;
+        display: inline-block;
+    }
+    .logo{
+        margin-top: 0.5vw;
+        margin-left: 0.6vw;
+    }
+    
+    #subaru-page{
+        background-image: url("../images/car1.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+    }
+    a:link{
+        font-family: 'Poppins', sans-serif;
+        font-size: 1em;
+        font-weight: bold;   
+    }
+    .link-div{
+        padding-top: 15px;
+    
+    }
+    #car-brand-heading{
+        color: rgb(253, 251, 251);
+        font-family: 'Antonio', sans-serif;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        font-size: 2em;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .image{
+        width: 100px;
+        height: 190px;
+    }
+    .my-card{
+        padding: 5px 8px;
+        margin: 10px 20px;
+        
+    }
+    .headlights{
+        padding: 20px 0px;
+        margin-top: 20px;
+        font-family: 'Antonio', sans-serif;
+    }
+    .wheels-pipes-mirrors{
+        background-image: url("../images/car.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center; 
+        font-family: 'Poppins', sans-serif; 
+    }
+    .spare-heading{
+        padding-top: 90px;
+        padding-bottom: 10px;
+        color: red;
+        font-family: 'Poppins', sans-serif;
+    }
+    .headlight-heading{
+        padding-top: 80px;
+    }
+    .go-to-top-btn{
+        float: right;
+       
+    }
+    .back-to-top{
+        padding-top: 10px;
+        padding-bottom: 10px;    
+    }
+    /* jquery */
+    #hdlight,#rimwheel,#pipeexhaust,#mirrorside{
+        display: none;
+    }
+    
+    .home-headings{
+         color: white;
+         font-weight: bold;
+         padding-bottom: 30px;
+         text-align: left;
+         margin-left: 50px;
+    }
+    #category{
+        margin-left: 50px;
+        margin-bottom: 20px;
+        float: left;
+    }
+    
+    
+    
+    
+    
