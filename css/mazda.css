@@ -2,9 +2,21 @@
     display: flex;
     justify-content: space-around;
 }
+#downward-arrow{
+    color: white;
+    cursor: pointer;
+}
+.mycart{
+    margin-left: 100px;
+    margin-right: 50px;
+}
 .header img{
     width: 9vw;
     margin-top: -1vw;
+}
+#spare-parts-nav{
+    background-color: black;
+    color: aliceblue;
 }
 .navbar a{
     text-decoration: none;
@@ -15,14 +27,14 @@
     /* font-family: 'Antonio', sans-serif; */
 }
 .navbar{
-    margin-top:1.5vw;
     margin-bottom: 13vw;
     padding-top: 2vw;
   
 }
 
 .navbar2{
-    margin: 0vw 6vw;
+    display: flex;
+    overflow: hidden;
 }
 body{
     background-image: url("/image/back.jpg");
@@ -32,10 +44,9 @@ body{
     
 h2{
     text-align: center;
-
+   padding-top: 100px;
     color: rgb(228, 29, 29);
-    font-family: 'Kalam', cursive;
-    font-family: 'Sansita Swashed', cursive
+    font-family: 'Raleway',sans-serif;   
 }
 p{
     color: black;
@@ -55,12 +66,8 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-}
-.logo > img{
-    width: 40px;
-    height: 40px;
-  
+    margin-top: 5px;
+    margin-bottom: 5px; 
 }
 .spare__parts{
     display: flex;
@@ -123,4 +130,5 @@ height: 250px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    padding: 40px;
 }
